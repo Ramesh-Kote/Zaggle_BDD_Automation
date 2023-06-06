@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-06T09:37:52Z" name="Default suite" finished-at="2023-06-06T09:44:31Z" duration-ms="398754">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" name="scenario" class="com.qt.bdd.Runner.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test started-at="2023-06-06T09:37:52Z" name="Default test" finished-at="2023-06-06T09:44:31Z" duration-ms="398754">
+      <class name="com.qt.bdd.Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-06T09:37:52Z" name="setUpClass" finished-at="2023-06-06T09:37:54Z" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-06T09:37:54Z" name="scenario" data-provider="scenarios" finished-at="2023-06-06T09:41:14Z" duration-ms="200685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the links in all tabs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automated End2End Tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-06T09:41:14Z" name="scenario" data-provider="scenarios" finished-at="2023-06-06T09:44:22Z" duration-ms="187170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify the links in all tabs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Automated End2End Tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-06T09:44:22Z" name="tearDownClass" finished-at="2023-06-06T09:44:31Z" duration-ms="9470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qt.bdd.Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
