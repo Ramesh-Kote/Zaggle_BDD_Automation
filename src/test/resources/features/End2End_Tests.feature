@@ -90,7 +90,7 @@ Feature: Automated End2End Tests
     Examples: 
       | username                   | password   |
       | staginguser07@yopmail.com  | Zaggle@123 |
-      | tata_testuser2@yopmail.com | Zaggle@12  |
+     
 
   @tripIdDetails
   Scenario Outline: verify the travel expense tripid details
