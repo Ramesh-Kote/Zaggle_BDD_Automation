@@ -56,10 +56,53 @@ public class DashboardPage extends BasePage{
 	private WebElement usingGeoLocationSubTab ;
 	@FindBy(xpath = "//span[text()='Odometer']")
 	private WebElement OdometerSubTab ;
-
-
+	@FindBy(xpath = "//div[contains(text(),'Invite Employee / Add Admin')]")
+	private WebElement inviteEmployeeAddAdminSubTab ;
+	@FindBy(xpath = "//div[contains(text(),'View Reports and Summary')]")
+	private WebElement viewReportsandSummarySubTab ;
+	@FindBy(xpath = "//div[contains(text(),'Configure Settings')]")
+	private WebElement configureSettingsSubTab ;
+	
+	@FindBy(xpath = "//button[contains(span,'Add New')]")
+	private WebElement addNewBtn ;
+	@FindBy(xpath = "(//button[contains(., 'Manage')])[1]")
+	private WebElement manageBtn ;
+	@FindBy(xpath = "//div[text()='Documents']")
+	private WebElement documentsSubTab ;
+	@FindBy(xpath = "//div[text()='Bulk Upload']")
+	private WebElement bulkUploadSubTab ;
+	@FindBy(xpath = "//span[@class='ant-modal-close-x']//i[@aria-label='icon: close']")
+	private WebElement crossIcon ;
+	
+	
+	
 	public void clickOnDashboardTab() {
 		dashboardTab.click();
+	}
+	public void clickOnviewReportsandSummarySubTab() {
+		viewReportsandSummarySubTab.click();	
+	}
+
+	public void clickOninviteEmployeeAddAdminSubTab() {
+		inviteEmployeeAddAdminSubTab.click();		
+	}
+	public void clickOnconfigureSettingsSubTab() {
+		configureSettingsSubTab.click();		
+	}
+	public void clickOnaddNewBtn() {
+		addNewBtn.click();		
+	}
+	public void clickOnmanageBtn() {
+		manageBtn.click();		
+	}
+	public void clickOndocumentsSubTab() {
+		documentsSubTab.click();		
+	}
+	public void clickOnbulkUploadSubTab() {
+		bulkUploadSubTab.click();		
+	}
+	public void clickOnCrossIcon() {
+		crossIcon.click();		
 	}
 
 	public void addExpenseDetails(String category_value,String amount_value,String purpose_value,String comments_value) {

@@ -88,9 +88,57 @@ Feature: Automated End2End Tests
     Then I verify the all links on the tabs
 
     Examples: 
-      | username                   | password   |
-      | staginguser07@yopmail.com  | Zaggle@123 |
-      | tata_testuser2@yopmail.com | Zaggle@12  |
+      | username                  | password   |
+      | staginguser07@yopmail.com | Zaggle@123 |
+
+  @verifylinks_AdminUser
+  Scenario Outline: verify the links in all tabs
+    Given I login with_credentials "<username>" "<password>"
+    Then I verify the all links on the tabs
+    When I clicked on the inviteEmployeeAddAdminSubTab
+    Then I verify the all links on the tabs
+    When I clicked on the addNewBtn
+    Then I verify the all links on the tabs
+    When I clicked on the CrossIcon
+    When I clicked on the manageBtn
+    Then I verify the all links on the tabs
+    When I clicked on the CrossIcon
+    When I clicked on the documentsSubTab
+    Then I verify the all links on the tabs
+    When I clicked on the bulkUploadSubTab
+    Then I verify the all links on the tabs
+    When I backward the page
+    When I clicked on the viewReportsandSummarySubTab
+    Then I verify the all links on the tabs
+    When I backward the page
+    And I clicked on the configureSettingsSubTab
+    Then I verify the all links on the tabs
+    When I backward the page
+    When I clicked on the ExpenseReoports tab
+    Then I verify the all links on the tabs
+    When I clicked on the TravelRequest tab
+    Then I verify the all links on the tabs
+    When I clicked on the Advance tab
+    Then I verify the all links on the tabs
+    When I clicked on the EmployeeTab
+    Then I verify the all links on the tabs
+    When I clicked on the addNewBtn
+    Then I verify the all links on the tabs
+    When I clicked on the CrossIcon
+    When I clicked on the manageBtn
+    Then I verify the all links on the tabs
+    When I clicked on the CrossIcon
+    When I clicked on the documentsSubTab
+    Then I verify the all links on the tabs
+    When I clicked on the bulkUploadSubTab
+    Then I verify the all links on the tabs
+    When I clicked on the managementReports
+    Then I verify the all links on the tabs
+    
+
+    Examples: 
+      | username                         | password  |
+      | tatapower_stagclient@yopmail.com | Zaggle@12 |
 
   @tripIdDetails
   Scenario Outline: verify the travel expense tripid details

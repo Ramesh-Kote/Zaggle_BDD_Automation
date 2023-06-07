@@ -6,6 +6,7 @@ import com.qt.bdd.pages.AdvancePage;
 import com.qt.bdd.pages.BasePage;
 import com.qt.bdd.pages.CommonPage;
 import com.qt.bdd.pages.DashboardPage;
+import com.qt.bdd.pages.EmployeePage;
 import com.qt.bdd.pages.ExpenseReportsPage;
 import com.qt.bdd.pages.ExpensesPage;
 import com.qt.bdd.pages.HomePage;
@@ -36,6 +37,7 @@ public class PageObjectManager {
 	
 	private ExpenseReportsPage expenseReportsPage;
 	private TravelRequestPage travelRequestPage;
+	private EmployeePage employeePage;
 	
 	public PageObjectManager(WebDriver driver) {
 
@@ -95,6 +97,11 @@ public class PageObjectManager {
 	public TravelRequestPage getTravelRequestPage() {
 
 		return (travelRequestPage == null) ? travelRequestPage = new TravelRequestPage(driver) : travelRequestPage ;
+	}
+	
+	public EmployeePage getEmployeePage() {
+
+		return (employeePage == null) ? employeePage = new EmployeePage(driver) : employeePage ;
 	}
 
 }

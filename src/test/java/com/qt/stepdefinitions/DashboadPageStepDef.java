@@ -50,4 +50,40 @@ public class DashboadPageStepDef {
 	public void i_clicked_on_the_clickOnOdometerSubTab(){
 		dashboardPage.clickOnOdometerSubTab();
 	}
+	
+	@When("I clicked on the viewReportsandSummarySubTab")
+	public void i_clicked_on_the_viewReportsandSummarySubTab(){
+		dashboardPage.clickOnviewReportsandSummarySubTab();
+	}
+	@When("I clicked on the inviteEmployeeAddAdminSubTab")
+	public void i_clicked_on_the_inviteEmployeeAddAdminSubTab(){
+		dashboardPage.clickOninviteEmployeeAddAdminSubTab();
+	}
+	
+	@When("I clicked on the configureSettingsSubTab")
+	public void i_clicked_on_the_configureSettingsSubTab(){
+		dashboardPage.clickOnconfigureSettingsSubTab();
+	}
+	
+	@When("I clicked on the addNewBtn")
+	public void i_clicked_on_the_addNewBtn(){
+		dashboardPage.clickOnaddNewBtn();
+	}
+	@When("I clicked on the manageBtn")
+	public void i_clicked_on_the_manageBtn(){
+		dashboardPage.clickOnmanageBtn();
+	}
+	@When("I clicked on the documentsSubTab")
+	public void i_clicked_on_the_documentsSubTab(){
+		dashboardPage.clickOndocumentsSubTab();
+	}
+	@When("I clicked on the bulkUploadSubTab")
+	public void i_clicked_on_the_bulkUploadSubTab(){
+		dashboardPage.clickOnbulkUploadSubTab();
+	}
+	
+	@When("I clicked on the CrossIcon")
+	public void i_clicked_on_the_CrossIcon(){
+		dashboardPage.clickOnCrossIcon();
+	}
 }

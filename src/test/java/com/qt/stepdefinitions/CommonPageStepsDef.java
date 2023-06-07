@@ -20,7 +20,7 @@ public class CommonPageStepsDef {
 	
 	@Then("I verify the all links on the tabs")
 	public void I_verify_the_all_links_on_the_tabs() throws Exception{
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		commonPage.verifyLinks();
 		
 	}
