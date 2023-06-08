@@ -51,7 +51,7 @@ Feature: Automated End2End Tests
       | username                  | password   |
       | staginguser07@yopmail.com | Zaggle@123 |
 
-  @verifylinks
+  @verifylinks_endUser
   Scenario Outline: verify the links in all tabs
     Given I login with_credentials "<username>" "<password>"
     Then I verify the all links on the tabs
@@ -88,7 +88,7 @@ Feature: Automated End2End Tests
     Then I verify the all links on the tabs
 
     Examples: 
-<<<<<<< HEAD
+
       | username                  | password   |
       | staginguser07@yopmail.com | Zaggle@123 |
 
@@ -140,11 +140,9 @@ Feature: Automated End2End Tests
     Examples: 
       | username                         | password  |
       | tatapower_stagclient@yopmail.com | Zaggle@12 |
-=======
-      | username                   | password   |
-      | staginguser07@yopmail.com  | Zaggle@123 |
-     
->>>>>>> 097259d7910972f0997b4b0a6d99f4dfa83c32a6
+
+      
+
 
   @tripIdDetails
   Scenario Outline: verify the travel expense tripid details
