@@ -11,7 +11,7 @@ import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(features = "src//test//resources//features", 
-				 tags = "@verifylinks_endUser",
+				 tags = "verifylinks_endUser,@verifylinks_AdminUser",
 				 dryRun = false, 
 				 glue = "com/qt/stepdefinitions", 
 				 plugin = {"pretty", 

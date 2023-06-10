@@ -15,7 +15,7 @@ public class EmployeePage extends BasePage{
 
 	@FindBy(xpath = "//a[span[text()='Employees']]")
 	private WebElement employeeTab ;
-	@FindBy(xpath = "//span[text()='Management Reports']")
+	@FindBy(xpath = "//a[span[text()='Management Reports']]")
 	private WebElement managementReports ;
 	
 	public void clickOnemployeeTab(){

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T06:44:31Z" name="Default suite" finished-at="2023-06-08T06:47:15Z" duration-ms="164876">
+  <suite name="Default suite" duration-ms="143887" started-at="2023-06-10T15:53:22Z" finished-at="2023-06-10T15:55:46Z">
     <groups>
       <group name="cucumber scenarios">
-        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" name="scenario" class="com.qt.bdd.Runner.TestRunner"/>
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@5c5eefef]" name="scenario" class="com.qt.bdd.Runner.TestRunner"/>
       </group> <!-- cucumber scenarios -->
     </groups>
-    <test started-at="2023-06-08T06:44:31Z" name="Default test" finished-at="2023-06-08T06:47:15Z" duration-ms="164876">
+    <test name="Default test" duration-ms="143887" started-at="2023-06-10T15:53:22Z" finished-at="2023-06-10T15:55:46Z">
       <class name="com.qt.bdd.Runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-08T06:44:31Z" name="setUpClass" finished-at="2023-06-08T06:44:32Z" duration-ms="1670" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@5c5eefef]" name="setUpClass" is-config="true" duration-ms="1042" started-at="2023-06-10T15:53:22Z" finished-at="2023-06-10T15:53:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-08T06:44:32Z" name="scenario" data-provider="scenarios" finished-at="2023-06-08T06:47:03Z" duration-ms="150774" status="PASS">
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qt.bdd.Runner.TestRunner@5c5eefef]" name="scenario" duration-ms="135971" started-at="2023-06-10T15:53:23Z" data-provider="scenarios" finished-at="2023-06-10T15:55:39Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@3ad2e17]" started-at="2023-06-08T06:47:03Z" name="tearDownClass" finished-at="2023-06-08T06:47:15Z" duration-ms="12287" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qt.bdd.Runner.TestRunner@5c5eefef]" name="tearDownClass" is-config="true" duration-ms="6800" started-at="2023-06-10T15:55:39Z" finished-at="2023-06-10T15:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

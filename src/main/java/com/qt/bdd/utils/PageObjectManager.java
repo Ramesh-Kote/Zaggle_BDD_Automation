@@ -2,6 +2,7 @@ package com.qt.bdd.utils;
 
 import org.openqa.selenium.WebDriver;
 
+import com.qt.bdd.pages.AdminPage;
 import com.qt.bdd.pages.AdvancePage;
 import com.qt.bdd.pages.BasePage;
 import com.qt.bdd.pages.CommonPage;
@@ -38,6 +39,7 @@ public class PageObjectManager {
 	private ExpenseReportsPage expenseReportsPage;
 	private TravelRequestPage travelRequestPage;
 	private EmployeePage employeePage;
+	private AdminPage adminPage;
 	
 	public PageObjectManager(WebDriver driver) {
 
@@ -102,6 +104,11 @@ public class PageObjectManager {
 	public EmployeePage getEmployeePage() {
 
 		return (employeePage == null) ? employeePage = new EmployeePage(driver) : employeePage ;
+	}
+	
+	public AdminPage getAdminPage() {
+
+		return (adminPage == null) ? adminPage = new AdminPage(driver) : adminPage ;
 	}
 
 }

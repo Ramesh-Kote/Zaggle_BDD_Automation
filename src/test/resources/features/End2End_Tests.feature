@@ -88,7 +88,6 @@ Feature: Automated End2End Tests
     Then I verify the all links on the tabs
 
     Examples: 
-
       | username                  | password   |
       | staginguser07@yopmail.com | Zaggle@123 |
 
@@ -135,14 +134,23 @@ Feature: Automated End2End Tests
     Then I verify the all links on the tabs
     When I clicked on the managementReports
     Then I verify the all links on the tabs
-    
+    When I clicked on the Admin tab
+    Then I verify admin tab links
+  
 
     Examples: 
       | username                         | password  |
       | tatapower_stagclient@yopmail.com | Zaggle@12 |
 
-      
+  @verifylinks_AdminUser1
+  Scenario Outline: verify the links in all tabs
+    Given I login with_credentials "<username>" "<password>"
+    When I clicked on the Admin tab
+    Then I verify admin tab links
 
+    Examples: 
+      | username                         | password  |
+      | tatapower_stagclient@yopmail.com | Zaggle@12 |
 
   @tripIdDetails
   Scenario Outline: verify the travel expense tripid details
