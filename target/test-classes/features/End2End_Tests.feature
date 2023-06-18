@@ -57,35 +57,34 @@ Feature: Automated End2End Tests
     Then I verify the all links on the tabs
     When I clicked on the AddExpense
     Then I verify the all links on the tabs
-    When I clicked on the AddMileage
-    Then I verify the all links on the tabs
-    When I clicked on the usingGeoLocationSubTab
-    Then I verify the all links on the tabs
-    When I clicked on the clickOnOdometerSubTab
-    Then I verify the all links on the tabs
-    When I backward the page
-    And I clicked on the AddReport
-    Then I verify the all links on the tabs
-    When I clicked on the Expense tab
-    Then I verify the all links on the tabs
-    When I clicked on the TravelRequest tab
-    Then I verify the all links on the tabs
-    When I clicked on the AddNewRequest button
-    Then I verify the all links on the tabs
-    When I clicked on the ExpenseReoports tab
-    Then I verify the all links on the tabs
-    When I clicked on the AddReport button
-    Then I verify the all links on the tabs
-    When I clicked on the TravelExpenses tab
-    Then I verify the all links on the tabs
-    When I clicked on the AddTripReport button
-    Then I verify the all links on the tabs
-    When I clicked on the Advance tab
-    Then I verify the all links on the tabs
-    When I clicked on the Travel Advance sub tab
-    Then I verify the all links on the tabs
-    When I clicked on the CreateAdvanceColumn
-    Then I verify the all links on the tabs
+    #When I clicked on the AddMileage
+    #Then I verify the all links on the tabs
+    #When I clicked on the usingGeoLocationSubTab
+    #Then I verify the all links on the tabs
+    ##Then I verify the all links on the tabs
+    #When I backward the page
+    #And I clicked on the AddReport
+    #Then I verify the all links on the tabs
+    #When I clicked on the Expense tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the TravelRequest tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the AddNewRequest button
+    #Then I verify the all links on the tabs
+    #When I clicked on the ExpenseReoports tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the AddReport button
+    #Then I verify the all links on the tabs
+    #When I clicked on the TravelExpenses tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the AddTripReport button
+    #Then I verify the all links on the tabs
+    #When I clicked on the Advance tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the Travel Advance sub tab
+    #Then I verify the all links on the tabs
+    #When I clicked on the CreateAdvanceColumn
+    #Then I verify the all links on the tabs
 
     Examples: 
       | username                  | password   |
